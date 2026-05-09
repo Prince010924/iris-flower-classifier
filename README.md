@@ -92,26 +92,5 @@ python predict.py 6.3 3.3 6.0 2.5     # → virginica
 
 ---
 
-## 💡 Next Steps (after this project)
-
-1. **Tune hyperparameters** — try `GridSearchCV` for the best KNN `k` value
-2. **Add more models** — try `SVC` (Support Vector Classifier) or `LogisticRegression`
-3. **Build a web UI** — wrap `predict.py` with Streamlit: `pip install streamlit`
-4. **Try a new dataset** — Titanic (classification) or Boston Housing (regression)
-5. **Learn scikit-learn pipelines** — chain `StandardScaler + model` into one `Pipeline`
-
----
-
-## 🧠 Key ML Concepts Glossary
-
-| Term | Meaning |
-|------|---------|
-| **Train/test split** | Separate data so the model never "cheats" by training on test data |
-| **Standardisation** | Rescale features to mean=0, std=1 so no feature dominates |
-| **Cross-validation** | Train/evaluate on 5 different splits to get a robust accuracy estimate |
-| **Confusion matrix** | Table showing correct vs wrong predictions per class |
-| **Feature importance** | How much each feature contributed to the Random Forest decisions |
-
----
 
 *Built as part of a Data Science learning journey. Happy experimenting!*
