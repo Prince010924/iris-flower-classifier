@@ -68,7 +68,7 @@ python predict.py 6.3 3.3 6.0 2.5     # → virginica
 
 ---
 
-## 📊 What You'll Learn
+## 📊 What I learned
 
 | Step | Concept | Code |
 |------|---------|------|
